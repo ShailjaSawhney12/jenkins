@@ -10,10 +10,10 @@ spec:
   template:
     metadata:
       labels:
-        app: springboot-k8ssvc
+        app: spring-boot-k8s
     spec:
       containers:
-        - name: springboot-k8ssvc
+        - name: spring-boot-k8s
           image: shailjasawhney/devops-integration # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:

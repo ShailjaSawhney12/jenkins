@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 
 
-    @GetMapping
+    @GetMapping("/hello")
     public String message(){
         return "Welcome to java techie!!!!";
     }
